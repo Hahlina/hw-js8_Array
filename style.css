@@ -1,0 +1,51 @@
+body {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: monospace;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.item span {
+  width: 100px;
+  text-align: right;
+  font-size: 18px;
+}
+
+.line {
+  background: #30e3ca;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.line span {
+  text-align: left;
+  margin-left: 5px;
+  font-size: 14px;
+  color: rgb(4, 29, 29);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.topOne {
+  background: #11999e;
+}
+.old {
+  background-color: #769791;
+}
+.item > span:nth-child(3) {
+  width: fit-content;
+  font-size: 14px;
+}
